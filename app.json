@@ -1,23 +1,23 @@
 {
   "name": "vmess or vles",
   "description": "vmess or vles",
-  "keywords": [
+  "keywords": [vless
     "vmess or vles"
   ],
   "env": {
-    "PROTOCOL": {
+    "PROTOCOL": {vless
       "description": "要部署的协议vmess或vless,请填小写的vmess或vless",
-      "value": "vmess",
+      "value": "vless",
       "required": true
     },
-    "UUID": {
+    "UUID": {b1596107-9c0a-4558-b439-5af6d5c4843e
       "description": "UUID充当配置的路径和账号密码,请妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
       "value": "",
       "required": false
     } 
   },
-  "website": "https://github.com/officeuser1/sir123",
-  "repository": "https://github.com/officeuser1/sir123",
+  "website": "https://github.com/lipenghuimmmqq/sir123",
+  "repository": "github.com/lipenghuimmmqq/sir123",
   "stack": "container",
   "features": [
     "runtime-dyno-metadata"
